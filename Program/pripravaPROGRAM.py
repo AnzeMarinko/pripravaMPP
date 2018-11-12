@@ -1,7 +1,7 @@
 import requests
 
 
-def pripravi_html(datum, naslov, razmisljanje):
+def pripravi_html(datum, naslov, razmisljanje, avtor):
     # uvoz strani z Bozjo besedo
     url = 'https://hozana.si/index.php?datum={}'.format(datum)
     hozana_html = requests.get(url).content.decode('utf-8').split("\n")
@@ -79,7 +79,7 @@ def pripravi_html(datum, naslov, razmisljanje):
     html = html.format(datum[0:2], datum[3:5], datum[6:10],
                        datum[0:2], datum[3:5], datum[6:10],
                        berilo[0], berilo[1], berilo[2],
-                       naslov, razmisljanje,
+                       naslov, razmisljanje, avtor,
                        evangelij[0], evangelij[1], evangelij[2],
                        citat,
                        psalm[0], psalm[1], psalm[2])
