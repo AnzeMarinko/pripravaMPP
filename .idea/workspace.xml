@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d625c3-14b8-428e-a085-42050d100a9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Program/pripravaHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Program/pripravaHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/pripravaPROGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program/pripravaPROGRAM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pripravaMPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pripravaMPP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/pripravaHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramskeDatoteke/sablonaHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/pripravaPROGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramskeDatoteke/pripraviHTML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/izdelanePriprave/18-11-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/izdelanePriprave/18-11-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pripravaMPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/program.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,36 +19,39 @@
     <session id="-1828881944">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="17" />
-          <entry key="html" value="25" />
-          <entry key="py" value="2390" />
+          <entry key="Python Console" value="69" />
+          <entry key="dummy" value="41" />
+          <entry key="html" value="37" />
+          <entry key="py" value="3065" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="25" />
-          <entry key="Python" value="2407" />
+          <entry key="HTML" value="37" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Python" value="3134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="Python" value="3" />
         </counts>
       </usages-collector>
@@ -54,22 +60,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pripravaMPP.py">
+        <entry file="file://$PROJECT_DIR$/program.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <marker date="1542058233225" expanded="true" signature="1495:1497" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program/pripravaPROGRAM.py">
+        <entry file="file://$PROJECT_DIR$/ProgramskeDatoteke/pripraviHTML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+            <state relative-caret-position="319">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -85,6 +92,8 @@
         <option value="$PROJECT_DIR$/Program/pripravaPROGRAM.py" />
         <option value="$PROJECT_DIR$/Program/pripravaHTML.html" />
         <option value="$PROJECT_DIR$/pripravaMPP.py" />
+        <option value="$PROJECT_DIR$/ProgramskeDatoteke/pripraviHTML.py" />
+        <option value="$PROJECT_DIR$/izdelanePriprave/18-11-14.html" />
       </list>
     </option>
   </component>
@@ -115,7 +124,16 @@
             <path>
               <item name="PripravaMPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PripravaMPP" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgramskeDatoteke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PripravaMPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="PripravaMPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pripravaMPP.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\anzek\OneDrive\Namizje\PripravaMPP\program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +196,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -199,27 +218,35 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Program/pripravaHTML.html">
+    <entry file="file://$PROJECT_DIR$/ProgramskeDatoteke/sablonaHTML.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pripravaMPP.py">
+    <entry file="file://$PROJECT_DIR$/ProgramskeDatoteke/pripraviHTML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/pripravaPROGRAM.py">
+    <entry file="file://$PROJECT_DIR$/izdelanePriprave/18-11-14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        <state relative-caret-position="188">
+          <caret line="51" column="542" selection-start-line="51" selection-start-column="542" selection-end-line="51" selection-end-column="542" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1542058233225" expanded="true" signature="1495:1497" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
