@@ -68,10 +68,12 @@ def pripravi_html(datum, naslov, razmisljanje, avtor):
                 evangelij[2] += vrstica[0:vrstica.index("<div style=")-6]
                 evangelij[2] = evangelij[2][3:]
                 break
+            elif "<hr" in vrstica:
+                break
             else:
                 evangelij[2] += vrstica
 
-    file1 = open("program\pripravaHTML.html", "r")
+    file1 = open("ProgramskeDatoteke\sablonaHTML.html", "r")
     html = ""
     for line in file1:
         html += line
@@ -86,7 +88,7 @@ def pripravi_html(datum, naslov, razmisljanje, avtor):
 
     # zapisi v datoteko
     ime_datoteke = "izdelanePriprave\{}-{}-{}.html".format(datum[8:10], datum[3:5], datum[0:2])
-    file = open(ime_datoteke, "w")
+    file = open(ime_datoteke, "w", encoding='utf-8')
     file.write(html)
     file.close() 
     return ime_datoteke
