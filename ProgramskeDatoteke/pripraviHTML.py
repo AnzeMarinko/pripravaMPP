@@ -4,7 +4,8 @@ import requests
 def pripravi_html(datum, naslov, razmisljanje, avtor):
     # uvoz strani z Bozjo besedo
     url = 'https://hozana.si/index.php?datum={}'.format(datum)
-    hozana_html = requests.get(url).content.decode('utf-8').split("\n")
+    r = requests.get(url)
+    hozana_html = r.text.split("\n")
 
     # ven izlusci berilo, psalm, evangelij in citat
     citat = ""
@@ -73,7 +74,7 @@ def pripravi_html(datum, naslov, razmisljanje, avtor):
             else:
                 evangelij[2] += vrstica
 
-    file1 = open("ProgramskeDatoteke\sablonaHTML.html", "r")
+    file1 = open("ProgramskeDatoteke/sablonaHTML.html", "r", encoding='utf-8')
     html = ""
     for line in file1:
         html += line
@@ -87,7 +88,7 @@ def pripravi_html(datum, naslov, razmisljanje, avtor):
                        psalm[0], psalm[1], psalm[2])
 
     # zapisi v datoteko
-    ime_datoteke = "izdelanePriprave\{}-{}-{}.html".format(datum[8:10], datum[3:5], datum[0:2])
+    ime_datoteke = "izdelanePriprave/{}-{}-{}.html".format(datum[8:10], datum[3:5], datum[0:2])
     file = open(ime_datoteke, "w", encoding='utf-8')
     file.write(html)
     file.close() 
